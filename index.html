@@ -642,18 +642,22 @@
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
                         <div class="one_half ">
-                            <p>Consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est adipisicing elit, sed do eiusmod tempor.</p>
+                            <p>
+
+                            </p>
                             <br>
-                            <p><strong><span style="color: #e64b77;">Incididunt ut dolore</span></strong> magna labore eiusmod. Dolor sit amet consectetur est adipisicing elit, sed do eiusmod.</p>
+                            <p><strong><span style="color: #e64b77;">
+                            </span></strong> 
+                            </p>
                         </div>
                         <div class="one_half last">
-                            <div class="contact-form">
-                                <p><input id="name" type="text" name="your-name" placeholder="Name"></p>
-                                <p><input id="contact-email" type="email" name="your-email" placeholder="Email"></p>
-                                <p><input id="subject" type="text" name="your-subject" placeholder="Subject"></p>
-                                <p><textarea id="message" name="your-message" placeholder="Message"></textarea></p>
+                            <form action="/mail_form.php" method="post" id="contact-form" class="contact-form">
+                                <p><input id="name" type="text" name="name" placeholder="Name"></p>
+                                <p><input id="contact-email" type="email" name="email" placeholder="Email"></p>
+                                <p><input id="subject" type="text" name="subject" placeholder="Subject"></p>
+                                <p><textarea id="message" name="message" placeholder="Message"></textarea></p>
                                 <p><input type="submit" onClick="SendMail()" value="SEND"></p>
-                            </div>
+                            </form>
                         </div>
                         <div class="clear"></div>
                     </div>
