@@ -3,6 +3,8 @@
 $errors = [];
 $errorMessage = '';
 
+echo($_POST);
+
 if (!empty($_POST)) {
     $name = $_POST['name'];
     $email = $_POST['email'];
