@@ -8,6 +8,11 @@ if (!empty($_POST)) {
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
+    
+    echo $name;
+    echo $message;
+    echo $subject;
+    echo $email;
 
     if (empty($name)) {
         $errors[] = 'Name is empty';
