@@ -260,7 +260,7 @@ body a:hover
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
     background-color: #221c5a; 
-    background-image:url(/images/background.png); 
+    background-image:url(images/background.png); 
     background-repeat: repeat; 
     background-position: center top; 
     background-size: cover;
